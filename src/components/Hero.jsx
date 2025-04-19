@@ -7,7 +7,7 @@ const Hero = () => {
 
     return (
         <section
-            className="w-full min-h-screen bg-black text-white flex flex-col justify-center items-center text-center px-4"
+            className="w-full min-h-screen bg-black text-white flex flex-col justify-center items-center text-center px-4 mt-20"
             id="home"
         >
             {/* Profile Image */}
