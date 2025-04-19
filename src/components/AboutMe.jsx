@@ -19,7 +19,7 @@ const About = () => {
                 {/* Content Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                     {/* Left: Text */}
-                    <div data-aos="fade-right">
+                    <div data-aos="fade-up">
                         <p className="text-lg text-gray-300 leading-relaxed">
                             Hello! I'm <span className="text-white font-semibold">SaiKiran Golti</span>, a passionate and detail-oriented{' '}
                             <span className="text-pink-400 font-semibold">Frontend Developer</span> based in Hyderabad, India.
@@ -48,7 +48,7 @@ const About = () => {
                     {/* Right: Key Info */}
                     <div
                         className="text-gray-300 text-md space-y-4"
-                        data-aos="fade-left"
+                        data-aos="fade-up"
                     >
                         <p><span className="font-bold text-white">Location:</span> Hyderabad, India</p>
                         <p><span className="font-bold text-white">Experience:</span> 3+ Years</p>

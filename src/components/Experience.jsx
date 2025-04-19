@@ -56,7 +56,7 @@ const ExperienceSection = () => {
   return (
     <section className="w-full bg-black text-white py-20 px-6" id="experience">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-extrabold text-center mb-14">
+        <h2 className="text-4xl font-extrabold text-center mb-14" data-aos="fade-down">
           My <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-900 bg-clip-text text-transparent">Experience</span>
         </h2>
 
@@ -85,7 +85,7 @@ const ExperienceSection = () => {
                 {exp.projects.map((proj, projIdx) => (
                   <div
                     key={projIdx}
-                    data-aos="fade-left"
+                    data-aos="fade-up"
                     className="border border-gray-700 rounded-2xl p-6 hover:border-pink-500 transition duration-300 shadow-sm"
                   >
                     <div className="flex items-center gap-2 mb-2">

@@ -26,7 +26,7 @@ const Skills = () => {
 
   return (
     <section className="w-full bg-black text-white py-16 px-4 scroll-mt-15" id="skills">
-      <h2 className="text-4xl font-extrabold text-center mb-12">
+      <h2 className="text-4xl font-extrabold text-center mb-12" data-aos="fade-down">
         My{' '}
         <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-orange-900 bg-clip-text text-transparent">
           Skills
