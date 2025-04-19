@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 import Experience from './components/Experience'
 import AboutMe from './components/AboutMe'
 import Footer from './components/Footer'
-import ContactMe from './components/contactMe'
+import ContactMe from './components/ContactMe'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
