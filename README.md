@@ -9,8 +9,6 @@ This is a fully responsive and animated **Developer Portfolio Website** built wi
 - ✨ Smooth scroll animations with AOS
 - 🧠 Skills & experience section with icons and effects
 - 📂 Project cards with hover effects
-- 💌 Contact form with working email integration
-- 🌙 Dark themed aesthetic
 
 ---
 
