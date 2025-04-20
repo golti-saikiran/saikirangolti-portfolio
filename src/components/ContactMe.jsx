@@ -52,7 +52,7 @@ const ContactMe = () => {
 
                     {/* Contact Form */}
                     <form className="md:w-1/2 flex flex-col gap-6" onSubmit={submitForm}>
-                        <div className="flex flex-col md:flex-row gap-6">
+                        {/* <div className="flex flex-col md:flex-row gap-6"> */}
                             <input
                                 type="text"
                                 placeholder="Your Name"
@@ -69,7 +69,7 @@ const ContactMe = () => {
                                 value={formData.email}
                                 onChange={(e) => handleChange(e)}
                             />
-                        </div>
+                        {/* </div> */}
 
                         <input
                             type="text"
