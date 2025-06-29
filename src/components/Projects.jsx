@@ -65,7 +65,7 @@ const Projects = () => {
                   <img
                     src={proj.image}
                     alt={proj.title}
-                    className="w-full h-48 object-cover rounded-md mb-4 border border-gray-700"
+                    className="w-full h-48 object-cover rounded-md mb-4 border border-gray-700 hover:scale-105 transition-transform duration-300"
                   />
                 )
               )}

@@ -42,7 +42,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
             >
-                I am a frontend web developer with 3+ years of experience, worked in various projects.
+                I am a frontend web developer with 3+ years of experience, worked in various projects using React, TypeScript, and JavaScript. I have a passion for creating beautiful and functional user interfaces that provide an exceptional user experience.
             </p>
 
             {/* Buttons */}
