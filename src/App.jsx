@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import ContactMe from './components/ContactMe'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Projects from './components/Projects'
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <Skills />
+      <Projects />
       <Experience />
       <AboutMe />
       <ContactMe />
