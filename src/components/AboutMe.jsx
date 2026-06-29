@@ -1,7 +1,7 @@
 import React from 'react';
 import 'aos/dist/aos.css';
 
-const About = () => {
+const About = ({ experience }) => {
     return (
         <section className="w-full bg-black text-white py-20 px-4" id="about">
             <div className="max-w-5xl mx-auto">
@@ -23,7 +23,7 @@ const About = () => {
                         <p className="text-lg text-gray-300 leading-relaxed">
                             Hello! I'm <span className="text-white font-semibold">SaiKiran Golti</span>, a passionate and detail-oriented{' '}
                             <span className="text-pink-400 font-semibold">Frontend Developer</span> based in Hyderabad, India.
-                            I have over <span className="text-orange-400 font-semibold"> 3years of experience</span> crafting user-friendly,
+                            I have over <span className="text-orange-400 font-semibold">{experience} of experience</span> crafting user-friendly,
                             scalable, and modern web interfaces using technologies like{' '}
                             <span className="text-purple-400">React</span>,{' '}
                             <span className="text-purple-400">CSS</span>, and{' '}
@@ -51,7 +51,7 @@ const About = () => {
                         data-aos="fade-up"
                     >
                         <p><span className="font-bold text-white">Location:</span> Hyderabad, India</p>
-                        <p><span className="font-bold text-white">Experience:</span> 3+ Years</p>
+                        <p><span className="font-bold text-white">Experience:</span> {experience}</p>
                         <p><span className="font-bold text-white">Specialization:</span> Frontend Development</p>
                         <p><span className="font-bold text-white">Stack:</span> HTML, CSS, JavaScript, React, Tailwind, TypeScript, Redux, Node.js, MongoDB</p>
                         <p><span className="font-bold text-white">Currently Learning:</span> Next.js & MERN Stack</p>

@@ -1,58 +1,59 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { FaMicrosoft, FaProjectDiagram } from 'react-icons/fa';
 import { SiInfosys } from 'react-icons/si';
 import 'aos/dist/aos.css';
 
-const experiences = [
-  {
-    company: 'Infosys',
-    icon: <SiInfosys className="text-blue-500 text-3xl" />,
-    title: 'Senior Systems Engineer',
-    location: 'Hyderabad, Telangana',
-    duration: 'April 2022 – Present',
-    description:
-      'Frontend React Developer with 3+ years of experience in building scalable and responsive user interfaces with a focus on performance, testing, and maintainability.',
-    responsibilities: [
-      'Built responsive UIs using React, HTML5, and CSS3.',
-      'Managed application state with Redux and Context API.',
-      'Handled data fetching with Axios/Fetch.',
-      'Implemented unit and automation testing using Jest and Playwright.',
-      'Collaborated via Git and conducted code reviews.'
-    ],
-    projects: [
-      {
-        name: 'Microsoft China 21V L2O App',
-        icon: <FaMicrosoft className="text-blue-300" />,
-        tech: 'ReactJS, Typescript, Redux, GraphQL, Node, FluentUI',
-        tasks: [
-          'Built Upload Agreement and Review Sections.',
-          'Ensured accessibility compliance.',
-          'Maintained Jest unit tests.'
-        ]
-      },
-      {
-        name: 'Approval Management App',
-        icon: <FaMicrosoft className="text-blue-300" />,
-        tech: 'ReactJS, Typescript, Node, Redux, Harmony UI',
-        tasks: [
-          'Developed Rule Creation and Test Cases.',
-          'Wrote Playwright automation tests.'
-        ]
-      },
-      {
-        name: 'Quote Center Microfrontend',
-        icon: <FaMicrosoft className="text-blue-300" />,
-        tech: 'ReactJS, Typescript, GraphQL, Node',
-        tasks: [
-          'Helped migrate monolith to micro-frontend.',
-          'Created technical docs for GQL APIs and component hierarchy.'
-        ]
-      }
-    ]
-  }
-];
+const ExperienceSection = ({ experience }) => {
+  const experienceDescription = `Frontend React Developer with ${experience} of experience in building scalable and responsive user interfaces with a focus on performance, testing, and maintainability.`;
 
-const ExperienceSection = () => {
+  const experiences = [
+    {
+      company: 'Infosys',
+      icon: <SiInfosys className="text-blue-500 text-3xl" />,
+      title: 'Senior Systems Engineer',
+      location: 'Hyderabad, Telangana',
+      duration: 'April 2022 – Present',
+      description: experienceDescription,
+      responsibilities: [
+        'Built responsive UIs using React, HTML5, and CSS3.',
+        'Managed application state with Redux and Context API.',
+        'Handled data fetching with Axios/Fetch.',
+        'Implemented unit and automation testing using Jest and Playwright.',
+        'Collaborated via Git and conducted code reviews.'
+      ],
+      projects: [
+        {
+          name: 'Microsoft China 21V L2O App',
+          icon: <FaMicrosoft className="text-blue-300" />,
+          tech: 'ReactJS, Typescript, Redux, GraphQL, Node, FluentUI',
+          tasks: [
+            'Built Upload Agreement and Review Sections.',
+            'Ensured accessibility compliance.',
+            'Maintained Jest unit tests.'
+          ]
+        },
+        {
+          name: 'Approval Management App',
+          icon: <FaMicrosoft className="text-blue-300" />,
+          tech: 'ReactJS, Typescript, Node, Redux, Harmony UI',
+          tasks: [
+            'Developed Rule Creation and Test Cases.',
+            'Wrote Playwright automation tests.'
+          ]
+        },
+        {
+          name: 'Quote Center Microfrontend',
+          icon: <FaMicrosoft className="text-blue-300" />,
+          tech: 'ReactJS, Typescript, GraphQL, Node',
+          tasks: [
+            'Helped migrate monolith to micro-frontend.',
+            'Created technical docs for GQL APIs and component hierarchy.'
+          ]
+        }
+      ]
+    }
+  ];
+
   return (
     <section className="w-full bg-black text-white py-20 px-6" id="experience">
       <div className="max-w-6xl mx-auto">

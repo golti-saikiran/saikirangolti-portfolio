@@ -1,9 +1,10 @@
 import React from 'react';
 import 'aos/dist/aos.css';
 import HeroImage from '../assets/HeroImage.jpg';
+import Hero2 from '../assets/Hero2.png';
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhoneAlt } from 'react-icons/fa';
 
-const Hero = () => {
+const Hero = ({ experience }) => {
 
     return (
         <section
@@ -16,7 +17,7 @@ const Hero = () => {
                 data-aos="zoom-in"
             >
                 <img
-                    src={HeroImage}
+                    src={Hero2}
                     alt="Profile"
                     className="w-full h-full object-cover"
                 />
@@ -42,7 +43,7 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="200"
             >
-                I am a frontend web developer with 3+ years of experience, worked in various projects using React, TypeScript, and JavaScript. I have a passion for creating beautiful and functional user interfaces that provide an exceptional user experience.
+                I am a frontend web developer with {experience} of experience, worked in various projects using React, TypeScript, and JavaScript. I have a passion for creating beautiful and functional user interfaces that provide an exceptional user experience.
             </p>
 
             {/* Buttons */}
